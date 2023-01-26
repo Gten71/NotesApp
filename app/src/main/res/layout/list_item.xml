@@ -58,7 +58,7 @@
             android:maxLines="10"
             android:padding="8dp"
             android:text="Date"
-            android:textColor="@color/white"
+            android:textColor="@color/green"
             android:textSize="12sp"/>
 
     </LinearLayout>
