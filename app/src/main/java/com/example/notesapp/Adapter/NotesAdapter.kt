@@ -61,6 +61,8 @@ class NotesAdapter (private val context : Context, val listener: NotesClickListe
         holder.title.isSelected = true
 
         holder.Note_tv.text = currentNote.note
+        holder.Note_tv.isSelected = true
+
         holder.date.text = currentNote.date
         holder.date.isSelected = true
 
