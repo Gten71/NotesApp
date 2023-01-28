@@ -21,6 +21,7 @@ import com.example.notesapp.Database.NoteDatabase
 import com.example.notesapp.Models.Note
 import com.example.notesapp.Models.NoteViewModel
 import com.example.notesapp.databinding.ActivityMainBinding
+import kotlin.system.exitProcess
 
 class MainActivity : AppCompatActivity(), NotesAdapter.NotesClickListener, PopupMenu.OnMenuItemClickListener{
 
@@ -90,6 +91,14 @@ class MainActivity : AppCompatActivity(), NotesAdapter.NotesClickListener, Popup
             getContext.launch(intent)
 
         }
+        binding.exit.setOnClickListener {
+            finish()
+        }
+        binding.quest.setOnClickListener {
+            val intent = Intent (this,QuestionPage::class.java )
+            getContext.launch(intent)
+        }
+
 
         binding.searchView.setOnQueryTextListener(object : SearchView.OnQueryTextListener,
             androidx.appcompat.widget.SearchView.OnQueryTextListener {
