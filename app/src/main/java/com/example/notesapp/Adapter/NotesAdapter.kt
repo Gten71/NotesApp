@@ -88,6 +88,10 @@ class NotesAdapter (private val context : Context, val listener: NotesClickListe
         list.add(R.color.NoteColor4)
         list.add(R.color.NoteColor5)
         list.add(R.color.NoteColor6)
+        list.add(R.color.NoteColor7)
+        list.add(R.color.NoteColor8)
+        list.add(R.color.NoteColor9)
+        list.add(R.color.NoteColor10)
 
         val seed = System.currentTimeMillis().toInt()
         val randomIndex = Random(seed).nextInt(list.size)

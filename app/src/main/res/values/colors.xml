@@ -17,5 +17,10 @@
     <color name="NoteColor4">#C7B3DA</color>
     <color name="NoteColor5">#A48DCA</color>
     <color name="NoteColor6">#95C5EF</color>
+    <color name="NoteColor7">#E7ECFF</color>
+    <color name="NoteColor8">#FFFADD</color>
+    <color name="NoteColor9">#C6D8FF</color>
+    <color name="NoteColor10">#DEF7FE</color>
+
 
 </resources>
