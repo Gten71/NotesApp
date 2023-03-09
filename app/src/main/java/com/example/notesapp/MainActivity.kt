@@ -68,7 +68,7 @@ class MainActivity : AppCompatActivity(), NotesAdapter.NotesClickListener, Popup
     }
     private fun initUi(){
         binding.recyclerView.setHasFixedSize(true)
-        binding.recyclerView.layoutManager = StaggeredGridLayoutManager(2, LinearLayout.VERTICAL)
+        binding.recyclerView.layoutManager = StaggeredGridLayoutManager(1, LinearLayout.VERTICAL)
         adapter = NotesAdapter(this, this)
         binding.recyclerView.adapter = adapter
 
